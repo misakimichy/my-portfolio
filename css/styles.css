@@ -28,7 +28,12 @@ h3 {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.2rem;
+}
+
+hr {
+  margin: 0 5px;
+  width: 70%;
 }
 
 nav > ul {
@@ -50,4 +55,25 @@ header {
   width: 400px;
   border-radius: 5px;
   margin: 0 auto;
+}
+
+footer {
+  margin: 0 !important;
+  width: 100% !important;
+}
+
+footer > .row {
+  margin-top: 50px;
+}
+.footer-img {
+  width: 200px;
+}
+
+.follow-me {
+  list-style-type: circle;
+}
+
+footer > p {
+  text-align: center;
+  font-size: 0.8rem;
 }

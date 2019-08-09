@@ -32,6 +32,7 @@
     </header>
     <div class="about-me" id="about-me">
       <h2>About me</h2>
+      <hr>
       <p>Please click <a href="ResumeMisakiKoonce.pdf">here</a> to see my resume.</p>
       <h3>My career</h3>
       <!-- Todo: Add my career here -->
@@ -43,10 +44,11 @@
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       <h3>Besides work</h3>
-      <p>I like cooking, exploring good restaurants, hiking, traveling, coffee and cats.</p>
+      <p>I like cooking, exploring good restaurants, hiking, traveling, coffee and <em>cats</em>.</p>
     </div>
     <div class="my-work" id="my-work">
       <h2 id="#my-work">My work</h2>
+      <hr>
       <!-- Todo: Use grid, show work name, screenshot and description in one card. Maybe with GitHub link -->
       <ul>
         <li><a href=""></a></li>
@@ -56,13 +58,24 @@
         <li></li>
       </ul>
     </div>
-    <footer id="contact">
-      <ul>
-        <li><a href="mailto:misaki.koonce@gmail.com">Email</a></li>
-        <li><a href="https://www.linkedin.com/in/misakikoonce">LinkedIn</a></li>
-        <li><a href="https://github.com/misakimichy">GitHub</a></li>
-        <li><a href="https://misakikoonce.com/">My website</a></li>
-      </ul>
+    <footer class="container bg-info" id="contact">
+      <div class="row">
+        <div class="col-lg-3 col-md-offset-2">
+          <p><img src="img/footer-pic.jpg" alt="Misaki pic" class="footer-img"></p>
+        </div>
+        <div class="col-lg-2">
+          <p><strong>Follow me</strong></p>
+          <ul class="follow-me">
+            <li><a href="https://www.linkedin.com/in/misakikoonce">LinkedIn</a></li>
+            <li><a href="https://github.com/misakimichy">GitHub</a></li>
+            <li><a href="https://misakikoonce.com/">My website</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2">
+          <p><strong>Contact me</strong></p>
+          <a href="mailto:misaki.koonce@gmail.com">Email</a>
+        </div>
+      </div>
       <p>©2019 Misaki Koonce All Rights Reserved</p>
     </footer>
   </body>
