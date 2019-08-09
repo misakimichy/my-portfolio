@@ -1,9 +1,17 @@
+:root {
+  --base-color:#2c2626;
+  --base-font-color: #e1e1e1;
+  --font-yellow: #f4ed9f;
+}
+
 html {
   font-size: 16px;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
+  color: var(--base-font-color);
+  background-color:var(--base-color);
 }
 
 header > h1,
@@ -55,6 +63,10 @@ nav > ul {
   justify-content: flex-end;
 }
 
+.top-nav a {
+  color: var(--font-yellow);
+}
+
 /* Header */
 header {
   width: 100%;
@@ -73,6 +85,10 @@ header {
   margin-bottom: 20px;
 }
 
+.about-me a {
+  color: var(--font-yellow);
+}
+
 .table {
   width: 70%;
 }
@@ -82,6 +98,9 @@ header {
 }
 
 /* My work */
+.my-work {
+  color: var(--base-color);
+}
 .my-work > .row {
   margin-right: 0;
   margin-left: 0;
@@ -108,10 +127,23 @@ header {
 footer {
   margin: 0 !important;
   width: 100% !important;
+  background-color: var(--font-yellow); 
 }
 
 footer > .row {
   margin-top: 50px;
+}
+
+footer > .row p {
+  color: var(--base-color);
+}
+
+footer > .row a {
+  color: var(--base-color);
+}
+
+footer > .row a:hover {
+  color: #8c8000;
 }
 
 .footer-img {
@@ -123,6 +155,7 @@ footer > .row {
 }
 
 footer > p {
+  color: var(--base-color);
   text-align: center;
   font-size: 0.8rem;
 }
