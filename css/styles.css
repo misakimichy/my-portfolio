@@ -35,6 +35,11 @@ p {
   font-size: 1.2rem;
 }
 
+section,
+section:not(:last-child) {
+  margin-bottom: 40px;
+}
+
 hr {
   margin: 0 5px 10px 5px;
   width: 70%;
@@ -70,6 +75,20 @@ header {
 
 .table {
   width: 70%;
+}
+
+.my-value {
+  font-size: 1.2rem;
+}
+
+/* My work */
+.my-work > .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.my-work > .row > h3 {
+  margin: 0 15px;
 }
 
 /* Footer */
