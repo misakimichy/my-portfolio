@@ -88,9 +88,22 @@ header {
 }
 
 .my-work > .row > h3 {
-  margin: 0 15px;
+  margin: 0 15px 5px 15px;;
 }
 
+.thumbnail {
+  text-align: center;
+}
+
+.thumbnail > img {
+  width: 380px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px #ececec
+}
+
+.thumbnail > p {
+  padding: 10px
+}
 /* Footer */
 footer {
   margin: 0 !important;
