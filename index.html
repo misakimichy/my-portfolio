@@ -1,4 +1,4 @@
-!<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -9,12 +9,31 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header class="intro">
+    <nav>
+      <ul>
+        <li><a href="#main">Home</a></li>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#my-Work">My Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <header class="intro" id="main">
       <img src="img/profile-pic.jpeg" alt="Misaki's profile pic" class="profile-img">
       <h1>Hi, I'm Misaki Koonce.</h1>
       <p>I'm a Sotfware Engineer in training in Seattle, originally from Tokyo.</p>
     </header>
-    <div class="my-work">
+    <div class="about-me" id="about-me">
+      <h2>About me</h2>
+      <p>Please click <a href="ResumeMisakiKoonce.pdf">here</a> to see my resume.</p>
+      <h3>My career</h3>
+      <!-- Todo: Add my career here -->
+      <!-- Search Bootstrap table or better layout -->
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, ut, repellendus ipsam sapiente dolores eveniet nam quisquam iure debitis ea tenetur excepturi neque quibusdam? Ipsa eveniet rerum laudantium commodi odio.</p>
+
+      <h3>Besides work</h3>
+      <p>I like cooking, exploring good restaurants, hiking, traveling, coffee and cats.</p>
+    </div>
+    <div class="my-work" id="my-work">
       <h2 id="#my-work">My work</h2>
       <!-- Todo: Use grid, show work name, screenshot and description in one card. Maybe with GitHub link -->
       <ul>
@@ -25,17 +44,7 @@
         <li></li>
       </ul>
     </div>
-    <div class="about-me">
-      <h2>About me</h2>
-      <p>Please click <a href="ResumeMisakiKoonce.pdf">here</a> to see my resume.</p>
-      <h3>My career</h3>
-      <!-- Todo: Add my career here -->
-      <!-- Search Bootstrap table or better layout -->
-
-      <h3>Besides work</h3>
-      <p>I like cooking, exploring good restaurants, hiking, traveling, coffee and cats.</p>
-    </div>
-    <footer>
+    <footer id="contact">
       <ul>
         <li><a href="mailto:misaki.koonce@gmail.com">Email</a></li>
         <li><a href="https://www.linkedin.com/in/misakikoonce">LinkedIn</a></li>
