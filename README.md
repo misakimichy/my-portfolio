@@ -8,6 +8,7 @@ Misaki Koonce
 
 ## About this page
 This is my portfolio designed with Bootstrap.
+![img/portfolio-screenshot.png]
 It contains about me, and contact info. You can see and download my resume from about me. You can see my work description from my work. You can also jump to the GitHub repo of the work.
 
 
