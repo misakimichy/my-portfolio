@@ -111,6 +111,11 @@ header {
 .my-work {
   color: var(--base-color);
 }
+
+.my-work > h2 {
+  color: var(--base-font-color);
+}
+
 .my-work > .row {
   margin-right: 0;
   margin-left: 0;
