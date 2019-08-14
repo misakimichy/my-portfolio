@@ -68,10 +68,11 @@ nav > ul {
 }
 
 /* Header */
-header {
+.intro {
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-top: 10px;
 }
 
 .profile-img {
@@ -81,6 +82,10 @@ header {
 }
 
 /* About me */
+.about-me {
+  margin: 0 10px;
+}
+
 .about-me > h3 {
   margin-bottom: 20px;
 }
@@ -110,6 +115,7 @@ header {
 /* My work */
 .my-work {
   color: var(--base-color);
+  margin: 0 10px;
 }
 
 .my-work > h2 {
@@ -137,6 +143,10 @@ header {
 .thumbnail {
   text-align: center;
   height: 100%;
+}
+
+.thumbnail > h3 {
+  margin-bottom: 20px;
 }
 
 .thumbnail > img {
