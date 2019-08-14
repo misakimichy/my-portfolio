@@ -102,13 +102,10 @@ nav > ul {
   font-size: 1.2rem;
 }
 
-.education {
-  width: 50%;
-  float: left;
-}
-
+.education,
 .work-experience {
   width: 50%;
+  text-align: -webkit-center;
   float: left;
 }
 
