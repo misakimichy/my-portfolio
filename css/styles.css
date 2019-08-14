@@ -125,8 +125,18 @@ header {
   margin: 0 15px 5px 15px;;
 }
 
+.row {
+  margin-bottom: 20px;
+}
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: warp;
+}
+
 .thumbnail {
   text-align: center;
+  height: 100%;
 }
 
 .thumbnail > img {
@@ -138,6 +148,7 @@ header {
 .thumbnail > p {
   padding: 10px
 }
+
 /* Footer */
 footer {
   margin: 0 !important;
